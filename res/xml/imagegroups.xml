@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Images>
+	<Group>
+		<category>vegetables</category>
+		<image1name>creep005</image1name>
+		<image2name>creep006</image2name>
+		<image1source>creep005</image1source>
+		<image2source>creep006</image2source>
+		<image1sound>notify</image1sound>
+		<image2sound>tada</image2sound>
+	</Group>
+	<Group>
+		<category>vegetables</category>
+		<image1name>creep001</image1name>
+		<image2name>creep002</image2name>
+		<image1source>creep003</image1source>
+		<image2source>creep004</image2source>
+		<image1sound>notify</image1sound>
+		<image2sound>tada</image2sound>
+	</Group>
+	<Group>
+		<category>vegetables</category>
+		<image1name>creep005</image1name>
+		<image2name>creep006</image2name>
+		<image1source>creep005</image1source>
+		<image2source>creep006</image2source>
+		<image1sound>notify</image1sound>
+		<image2sound>tada</image2sound>
+	</Group>
+	<Group>
+		<category>vegetables</category>
+		<image1name>creep007</image1name>
+		<image2name>creep008</image2name>
+		<image1source>creep007</image1source>
+		<image2source>creep008</image2source>
+		<image1sound>notify</image1sound>
+		<image2sound>tada</image2sound>
+	</Group>
+</Images>
+

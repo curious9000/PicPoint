@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<GridView android:layout_width="fill_parent" 
+		android:id="@+id/gridView1"
+		android:layout_height="wrap_content" 
+		android:horizontalSpacing="10dp"
+		android:numColumns="auto_fit" 
+		android:columnWidth="150dp"
+		android:stretchMode="columnWidth"
+		android:gravity="center" 
+		android:visibility="visible"
+		android:layout_weight="1.0">
+	</GridView>
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginBottom="5dp"
+		android:gravity="bottom" android:layout_weight="1.0">
+	<Button android:layout_height="wrap_content" android:text="Prev"
+		android:id="@+id/button1" android:layout_width="wrap_content"
+		android:onClick="showPrevImageGroup" android:layout_weight="1.0">
+	</Button>
+	<Button android:text="Next" android:id="@+id/button2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:onClick="showNextImageGroup" android:layout_weight="1.0">
+	</Button>
+	<Button android:text="Exit" android:id="@+id/button2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:onClick="exitPicPoint">
+	</Button>
+	</LinearLayout>
+</LinearLayout>
